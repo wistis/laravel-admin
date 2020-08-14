@@ -175,6 +175,7 @@ return [
 
         // Database connection for following tables.
         'connection' => '',
+        'connection_main' => '',
 
         // User tables and model.
         'users_table' => 'admin_users',

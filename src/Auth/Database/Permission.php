@@ -31,7 +31,7 @@ class Permission extends Model
      */
     public function __construct(array $attributes = [])
     {
-        $connection = config('admin.database.connection') ?: config('database.default');
+        $connection = config('admin.database.connection_main') ;
 
         $this->setConnection($connection);
 
