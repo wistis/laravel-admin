@@ -2,10 +2,10 @@
 
 ## Box组件
 
-`Encore\Admin\Widgets\Box`用来生成box组件：
+`Wistis\Admin\Widgets\Box`用来生成box组件：
 
 ```php
-use Encore\Admin\Widgets\Box;
+use Wistis\Admin\Widgets\Box;
 
 $box = new Box('Box标题', 'Box内容');
 
@@ -37,9 +37,9 @@ echo $box;
 
 ## Collapse组件
 
-`Encore\Admin\Widgets\Collapse`类用来生成折叠插件：
+`Wistis\Admin\Widgets\Collapse`类用来生成折叠插件：
 ```php
-use Encore\Admin\Widgets\Collapse;
+use Wistis\Admin\Widgets\Collapse;
 
 $collapse = new Collapse();
 
@@ -55,7 +55,7 @@ echo $collapse->render();
 
 ## 表单
 
-`Encore\Admin\Widgets\Form`类用来快速构建表单：
+`Wistis\Admin\Widgets\Form`类用来快速构建表单：
 
 ```php
 
@@ -86,10 +86,10 @@ echo $form->render();
 
 ## Infobox组件
 
-`Encore\Admin\Widgets\InfoBox`类用来生成信息展示块：
+`Wistis\Admin\Widgets\InfoBox`类用来生成信息展示块：
 
 ```php
-use Encore\Admin\Widgets\InfoBox;
+use Wistis\Admin\Widgets\InfoBox;
 
 $infoBox = new InfoBox('New Users', 'users', 'aqua', '/admin/users', '1024');
 
@@ -101,10 +101,10 @@ echo $infoBox->render();
 
 ## Tab组件
 
-`Encore\Admin\Widgets\Tab`类用来生成选项卡组件：
+`Wistis\Admin\Widgets\Tab`类用来生成选项卡组件：
 
 ```php
-use Encore\Admin\Widgets\Tab;
+use Wistis\Admin\Widgets\Tab;
 
 $tab = new Tab();
 
@@ -120,10 +120,10 @@ echo $tab->render();
 
 ## Table
 
-`Encore\Admin\Widgets\Table`类用来生成表格：
+`Wistis\Admin\Widgets\Table`类用来生成表格：
 
 ```php
-use Encore\Admin\Widgets\Table;
+use Wistis\Admin\Widgets\Table;
 
 // table 1
 $headers = ['Id', 'Email', 'Name', 'Company'];

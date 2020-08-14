@@ -1,6 +1,6 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
+use Wistis\Admin\Auth\Database\Administrator;
 
 class IndexTest extends TestCase
 {

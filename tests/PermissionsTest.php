@@ -1,8 +1,8 @@
 <?php
 
-use Encore\Admin\Auth\Database\Administrator;
-use Encore\Admin\Auth\Database\Permission;
-use Encore\Admin\Auth\Database\Role;
+use Wistis\Admin\Auth\Database\Administrator;
+use Wistis\Admin\Auth\Database\Permission;
+use Wistis\Admin\Auth\Database\Role;
 
 class PermissionsTest extends TestCase
 {

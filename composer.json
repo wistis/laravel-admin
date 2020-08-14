@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\Admin\\": "src/"
+            "Wistis\\Admin\\": "src/"
         },
         "files": [
             "src/helpers.php"

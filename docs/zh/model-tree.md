@@ -23,7 +23,7 @@ CREATE TABLE `demo_categories` (
 
 namespace App\Models\Demo;
 
-use Encore\Admin\Traits\ModelTree;
+use Wistis\Admin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
@@ -39,7 +39,7 @@ class Category extends Model
 
 namespace App\Models\Demo;
 
-use Encore\Admin\Traits\ModelTree;
+use Wistis\Admin\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
@@ -67,11 +67,11 @@ namespace App\Admin\Controllers\Demo;
 
 use App\Http\Controllers\Controller;
 use App\Models\Category;
-use Encore\Admin\Form;
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Layout\Content;
-use Encore\Admin\Controllers\ModelForm;
-use Encore\Admin\Tree;
+use Wistis\Admin\Form;
+use Wistis\Admin\Facades\Admin;
+use Wistis\Admin\Layout\Content;
+use Wistis\Admin\Controllers\ModelForm;
+use Wistis\Admin\Tree;
 
 class CategoryController extends Controller
 {

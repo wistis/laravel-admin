@@ -2,9 +2,9 @@
 
 namespace Tests\Controllers;
 
-use Encore\Admin\Controllers\AdminController;
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
+use Wistis\Admin\Controllers\AdminController;
+use Wistis\Admin\Form;
+use Wistis\Admin\Grid;
 use Tests\Models\Tag;
 use Tests\Models\User;
 
