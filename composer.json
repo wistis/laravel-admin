@@ -1,5 +1,5 @@
 {
-    "name": "encore/laravel-admin",
+    "name": "wistis/laravel-admin",
     "description": "laravel admin",
     "type": "library",
     "keywords": ["laravel", "admin", "grid", "form"],
@@ -52,10 +52,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\Admin\\AdminServiceProvider"
+                "Wistis\\Admin\\AdminServiceProvider"
             ],
             "aliases": {
-                "Admin": "Encore\\Admin\\Facades\\Admin"
+                "Admin": "Wistis\\Admin\\Facades\\Admin"
             }
         }
     }
