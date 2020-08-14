@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Wistis\Admin\Form;
 
-use Encore\Admin\Admin;
+use Wistis\Admin\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 class Footer implements Renderable

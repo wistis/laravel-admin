@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Wistis\Admin\Grid\Concerns;
 
 use Closure;
-use Encore\Admin\Grid\Tools\Footer;
+use Wistis\Admin\Grid\Tools\Footer;
 
 trait HasFooter
 {

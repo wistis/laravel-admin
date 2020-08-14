@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Concerns;
+namespace Wistis\Admin\Form\Concerns;
 
-use Encore\Admin\Form\Field;
+use Wistis\Admin\Form\Field;
 
 trait HandleCascadeFields
 {

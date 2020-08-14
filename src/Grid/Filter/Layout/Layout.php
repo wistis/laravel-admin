@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter\Layout;
+namespace Wistis\Admin\Grid\Filter\Layout;
 
-use Encore\Admin\Grid\Filter;
+use Wistis\Admin\Grid\Filter;
 use Illuminate\Support\Collection;
 
 class Layout

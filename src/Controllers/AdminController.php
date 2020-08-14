@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Wistis\Admin\Controllers;
 
-use Encore\Admin\Layout\Content;
+use Wistis\Admin\Layout\Content;
 use Illuminate\Routing\Controller;
 
 class AdminController extends Controller

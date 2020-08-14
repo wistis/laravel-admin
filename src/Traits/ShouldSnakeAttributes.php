@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Traits;
+namespace Wistis\Admin\Traits;
 
-use Encore\Admin\Grid\Model as GridModel;
+use Wistis\Admin\Grid\Model as GridModel;
 
 trait ShouldSnakeAttributes
 {

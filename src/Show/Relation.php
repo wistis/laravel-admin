@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Show;
+namespace Wistis\Admin\Show;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Show;
+use Wistis\Admin\Grid;
+use Wistis\Admin\Show;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

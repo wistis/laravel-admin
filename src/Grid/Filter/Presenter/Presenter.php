@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter\Presenter;
+namespace Wistis\Admin\Grid\Filter\Presenter;
 
-use Encore\Admin\Grid\Filter\AbstractFilter;
+use Wistis\Admin\Grid\Filter\AbstractFilter;
 
 abstract class Presenter
 {

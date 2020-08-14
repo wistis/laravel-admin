@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Actions\Interactor;
+namespace Wistis\Admin\Actions\Interactor;
 
-use Encore\Admin\Admin;
+use Wistis\Admin\Admin;
 
 class Dialog extends Interactor
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Wistis\Admin\Console;
 
 class ControllerCommand extends MakeCommand
 {

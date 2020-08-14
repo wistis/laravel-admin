@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Wistis\Admin\Form\Field;
 
-use Encore\Admin\Form;
-use Encore\Admin\Form\Field;
+use Wistis\Admin\Form;
+use Wistis\Admin\Form\Field;
 use Illuminate\Support\Arr;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 

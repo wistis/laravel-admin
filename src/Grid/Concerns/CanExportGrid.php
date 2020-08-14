@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Wistis\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Exporter;
-use Encore\Admin\Grid\Exporters\AbstractExporter;
+use Wistis\Admin\Grid;
+use Wistis\Admin\Grid\Exporter;
+use Wistis\Admin\Grid\Exporters\AbstractExporter;
 
 trait CanExportGrid
 {

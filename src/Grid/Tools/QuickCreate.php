@@ -1,13 +1,13 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Wistis\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Form\Field\MultipleSelect;
-use Encore\Admin\Form\Field\Select;
-use Encore\Admin\Form\Field\Text;
-use Encore\Admin\Grid;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Form\Field;
+use Wistis\Admin\Form\Field\MultipleSelect;
+use Wistis\Admin\Form\Field\Select;
+use Wistis\Admin\Form\Field\Text;
+use Wistis\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

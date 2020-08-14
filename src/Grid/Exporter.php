@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Wistis\Admin\Grid;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Exporters\CsvExporter;
+use Wistis\Admin\Grid;
+use Wistis\Admin\Grid\Exporters\CsvExporter;
 
 class Exporter
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Wistis\Admin\Grid\Displayers;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Column;
+use Wistis\Admin\Grid;
+use Wistis\Admin\Grid\Column;
 use Illuminate\Database\Eloquent\Model;
 
 abstract class AbstractDisplayer

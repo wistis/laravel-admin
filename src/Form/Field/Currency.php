@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Wistis\Admin\Form\Field;
 
 class Currency extends Text
 {

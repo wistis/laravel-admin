@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Actions;
+namespace Wistis\Admin\Actions;
 
-use Encore\Admin\Grid;
+use Wistis\Admin\Grid;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Http\Request;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Wistis\Admin\Grid;
 
-use Encore\Admin\Grid;
+use Wistis\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

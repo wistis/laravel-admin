@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Middleware;
+namespace Wistis\Admin\Middleware;
 
 use Closure;
-use Encore\Admin\Facades\Admin;
+use Wistis\Admin\Facades\Admin;
 
 class Authenticate
 {

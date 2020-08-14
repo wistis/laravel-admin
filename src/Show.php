@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin;
+namespace Wistis\Admin;
 
-use Encore\Admin\Show\Divider;
-use Encore\Admin\Show\Field;
-use Encore\Admin\Show\Panel;
-use Encore\Admin\Show\Relation;
-use Encore\Admin\Traits\ShouldSnakeAttributes;
+use Wistis\Admin\Show\Divider;
+use Wistis\Admin\Show\Field;
+use Wistis\Admin\Show\Panel;
+use Wistis\Admin\Show\Relation;
+use Wistis\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

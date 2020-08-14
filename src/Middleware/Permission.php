@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Middleware;
+namespace Wistis\Admin\Middleware;
 
-use Encore\Admin\Auth\Permission as Checker;
-use Encore\Admin\Facades\Admin;
+use Wistis\Admin\Auth\Permission as Checker;
+use Wistis\Admin\Facades\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 

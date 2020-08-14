@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Wistis\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Tools\Selector;
+use Wistis\Admin\Grid;
+use Wistis\Admin\Grid\Tools\Selector;
 
 /**
  * @mixin Grid

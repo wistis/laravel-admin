@@ -1,13 +1,13 @@
 <?php
 
-namespace Encore\Admin\Grid\Exporters;
+namespace Wistis\Admin\Grid\Exporters;
 
-use Encore\Admin\Grid;
+use Wistis\Admin\Grid;
 
 abstract class AbstractExporter implements ExporterInterface
 {
     /**
-     * @var \Encore\Admin\Grid
+     * @var \Wistis\Admin\Grid
      */
     protected $grid;
 

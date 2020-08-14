@@ -1,13 +1,13 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Wistis\Admin\Controllers;
 
-use Encore\Admin\Actions\Action;
-use Encore\Admin\Actions\GridAction;
-use Encore\Admin\Actions\Response;
-use Encore\Admin\Actions\RowAction;
-use Encore\Admin\Widgets\Form;
-use Encore\Admin\Widgets\Selectable\Selectable;
+use Wistis\Admin\Actions\Action;
+use Wistis\Admin\Actions\GridAction;
+use Wistis\Admin\Actions\Response;
+use Wistis\Admin\Actions\RowAction;
+use Wistis\Admin\Widgets\Form;
+use Wistis\Admin\Widgets\Selectable\Selectable;
 use Exception;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -159,7 +159,7 @@ class HandleController extends Controller
         $class = str_replace('_', '\\', $class);
 
         if (class_exists($class)) {
-            /** @var \Encore\Admin\Grid\Selectable $selectable */
+            /** @var \Wistis\Admin\Grid\Selectable $selectable */
             $selectable = new $class(...array_values($args));
 
             return $selectable->render();

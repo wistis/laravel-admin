@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Wistis\Admin\Grid\Displayers;
 
-use Encore\Admin\Admin;
+use Wistis\Admin\Admin;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;
 

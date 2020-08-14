@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Wistis\Admin\Form\Field;
 
 use Illuminate\Support\Str;
 use Intervention\Image\Constraint;

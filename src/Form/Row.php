@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Wistis\Admin\Form;
 
-use Encore\Admin\Form;
+use Wistis\Admin\Form;
 use Illuminate\Contracts\Support\Renderable;
 
 class Row implements Renderable

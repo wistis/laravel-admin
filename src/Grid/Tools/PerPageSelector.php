@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Wistis\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Grid;
 
 class PerPageSelector extends AbstractTool
 {

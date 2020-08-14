@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Exporters;
+namespace Wistis\Admin\Grid\Exporters;
 
-use Encore\Admin\Grid\Column;
+use Wistis\Admin\Grid\Column;
 
 class CsvExporter extends AbstractExporter
 {

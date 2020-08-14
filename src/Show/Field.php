@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Show;
+namespace Wistis\Admin\Show;
 
-use Encore\Admin\Show;
-use Encore\Admin\Widgets\Carousel;
+use Wistis\Admin\Show;
+use Wistis\Admin\Widgets\Carousel;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;

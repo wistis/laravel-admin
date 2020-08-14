@@ -1,11 +1,11 @@
 <?php
 
-namespace Encore\Admin\Grid\Column;
+namespace Wistis\Admin\Grid\Column;
 
 use Carbon\Carbon;
-use Encore\Admin\Grid\Column;
-use Encore\Admin\Grid\Displayers;
-use Encore\Admin\Grid\Model;
+use Wistis\Admin\Grid\Column;
+use Wistis\Admin\Grid\Displayers;
+use Wistis\Admin\Grid\Model;
 use Illuminate\Support\Arr;
 
 /**

@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Column;
+namespace Wistis\Admin\Grid\Column;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid\Model;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Grid\Model;
 
 class RangeFilter extends Filter
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Layout;
+namespace Wistis\Admin\Layout;
 
 interface Buildable
 {

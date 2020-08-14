@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Wistis\Admin\Form\Field;
 
-use Encore\Admin\Form;
+use Wistis\Admin\Form;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\URL;

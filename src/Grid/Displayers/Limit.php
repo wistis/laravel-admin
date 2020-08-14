@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Wistis\Admin\Grid\Displayers;
 
-use Encore\Admin\Facades\Admin;
+use Wistis\Admin\Facades\Admin;
 use Illuminate\Support\Str;
 
 class Limit extends AbstractDisplayer

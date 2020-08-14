@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Wistis\Admin\Controllers;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Show;
+use Wistis\Admin\Form;
+use Wistis\Admin\Grid;
+use Wistis\Admin\Show;
 
 class RoleController extends AdminController
 {

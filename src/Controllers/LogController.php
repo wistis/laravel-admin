@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Wistis\Admin\Controllers;
 
-use Encore\Admin\Auth\Database\OperationLog;
-use Encore\Admin\Grid;
+use Wistis\Admin\Auth\Database\OperationLog;
+use Wistis\Admin\Grid;
 use Illuminate\Support\Arr;
 
 class LogController extends AdminController

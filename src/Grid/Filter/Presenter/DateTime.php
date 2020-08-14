@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter\Presenter;
+namespace Wistis\Admin\Grid\Filter\Presenter;
 
-use Encore\Admin\Admin;
+use Wistis\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class DateTime extends Presenter

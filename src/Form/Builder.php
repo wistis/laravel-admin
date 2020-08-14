@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Wistis\Admin\Form;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Form\Field\Hidden;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Form;
+use Wistis\Admin\Form\Field\Hidden;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;

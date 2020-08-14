@@ -1,11 +1,11 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Wistis\Admin\Form\Field;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Form\NestedForm;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Form;
+use Wistis\Admin\Form\Field;
+use Wistis\Admin\Form\NestedForm;
 use Illuminate\Database\Eloquent\Relations\HasMany as Relation;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Arr;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Show;
+namespace Wistis\Admin\Show;
 
 class Divider extends Field
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Wistis\Admin\Grid\Tools;
 
-use Encore\Admin\Admin;
+use Wistis\Admin\Admin;
 
 class FilterButton extends AbstractTool
 {

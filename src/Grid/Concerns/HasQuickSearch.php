@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Wistis\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid\Column;
-use Encore\Admin\Grid\Model;
-use Encore\Admin\Grid\Tools;
+use Wistis\Admin\Grid\Column;
+use Wistis\Admin\Grid\Model;
+use Wistis\Admin\Grid\Tools;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 

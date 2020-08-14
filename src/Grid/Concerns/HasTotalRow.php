@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Wistis\Admin\Grid\Concerns;
 
 use Closure;
-use Encore\Admin\Grid\Tools\TotalRow;
+use Wistis\Admin\Grid\Tools\TotalRow;
 
 trait HasTotalRow
 {

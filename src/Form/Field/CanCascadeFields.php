@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Wistis\Admin\Form\Field;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Form;
 use Illuminate\Support\Arr;
 
 /**

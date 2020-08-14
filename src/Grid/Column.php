@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Wistis\Admin\Grid;
 
 use Carbon\Carbon;
 use Closure;
-use Encore\Admin\Actions\RowAction;
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Displayers\AbstractDisplayer;
+use Wistis\Admin\Actions\RowAction;
+use Wistis\Admin\Grid;
+use Wistis\Admin\Grid\Displayers\AbstractDisplayer;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Support\Arr;
@@ -475,7 +475,7 @@ class Column
     public function action($action)
     {
         if (!is_subclass_of($action, RowAction::class)) {
-            throw new \InvalidArgumentException("Action class [$action] must be sub-class of [Encore\Admin\Actions\GridAction]");
+            throw new \InvalidArgumentException("Action class [$action] must be sub-class of [Wistis\Admin\Actions\GridAction]");
         }
 
         $grid = $this->grid;

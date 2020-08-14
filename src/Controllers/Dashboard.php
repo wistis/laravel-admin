@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Controllers;
+namespace Wistis\Admin\Controllers;
 
-use Encore\Admin\Admin;
+use Wistis\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class Dashboard

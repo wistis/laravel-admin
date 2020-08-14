@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Wistis\Admin\Grid\Concerns;
 
-use Encore\Admin\Admin;
+use Wistis\Admin\Admin;
 
 trait CanDoubleClick
 {

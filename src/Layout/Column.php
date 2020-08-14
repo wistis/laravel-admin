@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Layout;
+namespace Wistis\Admin\Layout;
 
-use Encore\Admin\Grid;
+use Wistis\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 class Column implements Buildable

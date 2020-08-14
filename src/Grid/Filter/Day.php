@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Grid\Filter;
+namespace Wistis\Admin\Grid\Filter;
 
 class Day extends Date
 {

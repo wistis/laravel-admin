@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Widgets\Navbar;
+namespace Wistis\Admin\Widgets\Navbar;
 
-use Encore\Admin\Admin;
+use Wistis\Admin\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

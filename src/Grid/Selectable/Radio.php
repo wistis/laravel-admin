@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Selectable;
+namespace Wistis\Admin\Grid\Selectable;
 
-use Encore\Admin\Grid\Displayers\AbstractDisplayer;
+use Wistis\Admin\Grid\Displayers\AbstractDisplayer;
 
 class Radio extends AbstractDisplayer
 {

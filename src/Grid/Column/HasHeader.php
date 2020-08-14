@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Column;
+namespace Wistis\Admin\Grid\Column;
 
-use Encore\Admin\Grid\Column;
-use Encore\Admin\Grid\Model;
+use Wistis\Admin\Grid\Column;
+use Wistis\Admin\Grid\Model;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Auth;
+namespace Wistis\Admin\Auth;
 
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Middleware\Pjax;
+use Wistis\Admin\Facades\Admin;
+use Wistis\Admin\Middleware\Pjax;
 
 class Permission
 {

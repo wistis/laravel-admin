@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Tools;
+namespace Wistis\Admin\Grid\Tools;
 
-use Encore\Admin\Grid;
+use Wistis\Admin\Grid;
 
 class CreateButton extends AbstractTool
 {

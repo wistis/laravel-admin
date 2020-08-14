@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Auth\Database;
+namespace Wistis\Admin\Auth\Database;
 
-use Encore\Admin\Traits\DefaultDatetimeFormat;
+use Wistis\Admin\Traits\DefaultDatetimeFormat;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Database\Eloquent\Model;

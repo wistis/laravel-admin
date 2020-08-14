@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Actions\Interactor;
+namespace Wistis\Admin\Actions\Interactor;
 
-use Encore\Admin\Actions\RowAction;
-use Encore\Admin\Admin;
-use Encore\Admin\Form\Field;
+use Wistis\Admin\Actions\RowAction;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Form\Field;
 use Illuminate\Http\Request;
 use Illuminate\Support\MessageBag;
 use Illuminate\Validation\ValidationException;

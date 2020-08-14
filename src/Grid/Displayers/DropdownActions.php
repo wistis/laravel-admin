@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Wistis\Admin\Grid\Displayers;
 
-use Encore\Admin\Actions\RowAction;
-use Encore\Admin\Admin;
-use Encore\Admin\Grid\Actions\Delete;
-use Encore\Admin\Grid\Actions\Edit;
-use Encore\Admin\Grid\Actions\Show;
+use Wistis\Admin\Actions\RowAction;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Grid\Actions\Delete;
+use Wistis\Admin\Grid\Actions\Edit;
+use Wistis\Admin\Grid\Actions\Show;
 
 class DropdownActions extends Actions
 {

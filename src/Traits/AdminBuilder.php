@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Traits;
+namespace Wistis\Admin\Traits;
 
-use Encore\Admin\Form;
-use Encore\Admin\Grid;
-use Encore\Admin\Tree;
+use Wistis\Admin\Form;
+use Wistis\Admin\Grid;
+use Wistis\Admin\Tree;
 
 /**
  * @deprecated

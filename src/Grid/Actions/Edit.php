@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Actions;
+namespace Wistis\Admin\Grid\Actions;
 
-use Encore\Admin\Actions\RowAction;
+use Wistis\Admin\Actions\RowAction;
 
 class Edit extends RowAction
 {

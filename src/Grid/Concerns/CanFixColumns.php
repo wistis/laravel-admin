@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Grid\Concerns;
+namespace Wistis\Admin\Grid\Concerns;
 
-use Encore\Admin\Grid\Tools\FixColumns;
+use Wistis\Admin\Grid\Tools\FixColumns;
 use Illuminate\Support\Collection;
 
 trait CanFixColumns

@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Actions\Interactor;
+namespace Wistis\Admin\Actions\Interactor;
 
-use Encore\Admin\Actions\Action;
+use Wistis\Admin\Actions\Action;
 
 abstract class Interactor
 {

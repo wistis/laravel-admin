@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Wistis\Admin\Form\Field;
 
-use Encore\Admin\Admin;
+use Wistis\Admin\Admin;
 
 class CheckboxCard extends CheckboxButton
 {

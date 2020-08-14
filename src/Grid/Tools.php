@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Wistis\Admin\Grid;
 
-use Encore\Admin\Actions\GridAction;
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Tools\AbstractTool;
-use Encore\Admin\Grid\Tools\BatchActions;
-use Encore\Admin\Grid\Tools\FilterButton;
+use Wistis\Admin\Actions\GridAction;
+use Wistis\Admin\Grid;
+use Wistis\Admin\Grid\Tools\AbstractTool;
+use Wistis\Admin\Grid\Tools\BatchActions;
+use Wistis\Admin\Grid\Tools\FilterButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Encore\Admin\Grid;
+namespace Wistis\Admin\Grid;
 
-use Encore\Admin\Grid;
-use Encore\Admin\Grid\Selectable\Checkbox;
-use Encore\Admin\Grid\Selectable\Radio;
+use Wistis\Admin\Grid;
+use Wistis\Admin\Grid\Selectable\Checkbox;
+use Wistis\Admin\Grid\Selectable\Radio;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 

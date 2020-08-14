@@ -1,12 +1,12 @@
 <?php
 
-namespace Encore\Admin\Widgets;
+namespace Wistis\Admin\Widgets;
 
 use Closure;
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Form as BaseForm;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Layout\Content;
+use Wistis\Admin\Facades\Admin;
+use Wistis\Admin\Form as BaseForm;
+use Wistis\Admin\Form\Field;
+use Wistis\Admin\Layout\Content;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;

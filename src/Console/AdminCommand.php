@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Console;
+namespace Wistis\Admin\Console;
 
-use Encore\Admin\Admin;
+use Wistis\Admin\Admin;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;

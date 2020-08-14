@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Actions;
+namespace Wistis\Admin\Actions;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Form\Field;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Form\Field;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 

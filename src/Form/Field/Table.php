@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\Form\Field;
+namespace Wistis\Admin\Form\Field;
 
-use Encore\Admin\Form\NestedForm;
+use Wistis\Admin\Form\NestedForm;
 
 class Table extends HasMany
 {

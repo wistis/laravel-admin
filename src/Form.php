@@ -1,18 +1,18 @@
 <?php
 
-namespace Encore\Admin;
+namespace Wistis\Admin;
 
 use Closure;
-use Encore\Admin\Exception\Handler;
-use Encore\Admin\Form\Builder;
-use Encore\Admin\Form\Concerns\HandleCascadeFields;
-use Encore\Admin\Form\Concerns\HasFields;
-use Encore\Admin\Form\Concerns\HasHooks;
-use Encore\Admin\Form\Field;
-use Encore\Admin\Form\Layout\Layout;
-use Encore\Admin\Form\Row;
-use Encore\Admin\Form\Tab;
-use Encore\Admin\Traits\ShouldSnakeAttributes;
+use Wistis\Admin\Exception\Handler;
+use Wistis\Admin\Form\Builder;
+use Wistis\Admin\Form\Concerns\HandleCascadeFields;
+use Wistis\Admin\Form\Concerns\HasFields;
+use Wistis\Admin\Form\Concerns\HasHooks;
+use Wistis\Admin\Form\Field;
+use Wistis\Admin\Form\Layout\Layout;
+use Wistis\Admin\Form\Row;
+use Wistis\Admin\Form\Tab;
+use Wistis\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -1362,7 +1362,7 @@ class Form implements Renderable
      *
      * @param Closure $callback
      *
-     * @return \Encore\Admin\Form\Footer
+     * @return \Wistis\Admin\Form\Footer
      */
     public function footer(Closure $callback = null)
     {

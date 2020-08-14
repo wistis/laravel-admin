@@ -1,11 +1,11 @@
 <?php
 
-namespace Encore\Admin\Form;
+namespace Wistis\Admin\Form;
 
 use Closure;
-use Encore\Admin\Admin;
-use Encore\Admin\Form;
-use Encore\Admin\Widgets\Form as WidgetForm;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Form;
+use Wistis\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
@@ -1479,7 +1479,7 @@ class Field implements Renderable
     /**
      * @param \Closure $callback
      *
-     * @return \Encore\Admin\Form\Field
+     * @return \Wistis\Admin\Form\Field
      */
     public function with(Closure $callback): self
     {

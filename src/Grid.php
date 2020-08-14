@@ -1,16 +1,16 @@
 <?php
 
-namespace Encore\Admin;
+namespace Wistis\Admin;
 
 use Closure;
-use Encore\Admin\Exception\Handler;
-use Encore\Admin\Grid\Column;
-use Encore\Admin\Grid\Concerns;
-use Encore\Admin\Grid\Displayers;
-use Encore\Admin\Grid\Model;
-use Encore\Admin\Grid\Row;
-use Encore\Admin\Grid\Tools;
-use Encore\Admin\Traits\ShouldSnakeAttributes;
+use Wistis\Admin\Exception\Handler;
+use Wistis\Admin\Grid\Column;
+use Wistis\Admin\Grid\Concerns;
+use Wistis\Admin\Grid\Displayers;
+use Wistis\Admin\Grid\Model;
+use Wistis\Admin\Grid\Row;
+use Wistis\Admin\Grid\Tools;
+use Wistis\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Support\Collection;
@@ -43,7 +43,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Encore\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
+     * @var \Wistis\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
      */
     protected $model;
 

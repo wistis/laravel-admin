@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Grid\Displayers;
+namespace Wistis\Admin\Grid\Displayers;
 
-use Encore\Admin\Admin;
-use Encore\Admin\Grid\Simple;
+use Wistis\Admin\Admin;
+use Wistis\Admin\Grid\Simple;
 use Illuminate\Contracts\Support\Renderable;
 
 class Modal extends AbstractDisplayer
